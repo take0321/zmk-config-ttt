@@ -1,0 +1,11 @@
+file_format: '1'
+id: IPPO
+name: IPPO glp
+type: shield
+url: https://github.com/eswai/IPPO
+requires: [ nice_nano_v2]
+features:
+  - keys
+siblings:
+  - IPPO_left
+  - IPPO_right
