@@ -33,7 +33,8 @@
             , <&gpio0 11 GPIO_ACTIVE_HIGH>
             , <&gpio1 04 GPIO_ACTIVE_HIGH>
             , <&gpio1 06 GPIO_ACTIVE_HIGH>
-    };
+        }   ;
+     };	
 };
 
 
