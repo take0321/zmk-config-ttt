@@ -42,8 +42,8 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp TAB    &kp Q  &kp W  &kp E     &kp R   &kp R   &kp R
 &kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp TAB    &kp Q  &kp W  &kp E     &kp R   &kp R   &kp R
-&kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp TAB    &kp Q  &kp W  &kp E     &kp R     &kp R                             
-&kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp TAB    &kp Q  &kp W  &kp E     &kp R     &kp R   &kp R     
+&kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp TAB    &kp Q  &kp W  &kp E     &kp R     &kp R  &kp R                           
+&kp TAB    &kp Q  &kp W  &kp E     &kp R         
             >;
         };
 
