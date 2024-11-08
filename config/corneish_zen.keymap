@@ -41,7 +41,7 @@
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E     &kp R       
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F            &kp K      &kp L    &kp SEMI  
+                                                   &kp K      &kp L    &kp SEMI  
 &td0       &kp Z  &kp X  &kp C     &kp V          &kp COMMA  &kp DOT  &kp FSLH  
 &td0       &kp Z  &kp X  &kp C     &kp V      
             >;
