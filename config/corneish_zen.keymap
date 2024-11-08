@@ -40,9 +40,10 @@
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp U  &kp I      &kp O    &kp P     &kp BSPC &kp P
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F       &kp J  &kp K      &kp L    &kp SEMI  &kp SQT &kp P
-&td0       &kp Z  &kp X  &kp C     &kp V      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC &kp P
+&kp TAB    &kp Q  &kp W  &kp E     &kp R       &kp U  &kp I      &kp O    &kp P     &kp BSPC 
+&kp LCTRL  &kp A  &kp S  &kp D     &kp F       &kp J  &kp K      &kp L    &kp SEMI  &kp SQT 
+&td0       &kp Z  &kp X  &kp C     &kp V      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+&td0       &kp Z  &kp X  &kp C     &kp V      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC 
             >;
         };
 
