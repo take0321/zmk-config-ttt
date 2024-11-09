@@ -35,6 +35,11 @@
             bindings = <&kp F1>;
             key-positions = <0 12>;
         };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <1 13>;
+        };
     };
 
     keymap {
