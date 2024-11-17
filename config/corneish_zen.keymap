@@ -108,6 +108,11 @@
             bindings = <&kp C_PLAY_PAUSE>;
             key-positions = <16 28>;
         };
+
+        mainasu {
+            bindings = <&kp MINUS>;
+            key-positions = <10 11>;
+        };
     };
 
     keymap {
@@ -139,10 +144,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans   &trans    &kp LANGUAGE_2   &kp LANG1    &trans    &trans  &trans  &trans  &kp PRINTSCREEN  &trans  &trans
-&trans  &kp RET  &kp BSPC  &kp SPACE        &kp DELETE   &kp A     &kp A   &kp A   &kp A   &kp A            &trans  &trans
-&trans  &trans   &kp TAB   &kp LC(LS(TAB))  &kp LC(TAB)  &trans    &trans  &trans  &trans  &trans           &trans  &trans
-                           &trans           &trans       &trans    &trans  &trans  &trans
+&trans    &kp ESC  &kp TAB   &kp LANGUAGE_2   &kp LANG1    &trans    &trans  &trans  &trans  &kp PRINTSCREEN  &trans  &trans
+&trans    &kp RET  &kp BSPC  &kp SPACE        &kp DELETE   &kp A     &kp A   &kp A   &kp A   &kp A            &trans  &trans
+&kp CLCK  &trans   &kp TAB   &kp LC(LS(TAB))  &kp LC(TAB)  &trans    &trans  &trans  &trans  &trans           &trans  &trans
+                             &trans           &trans       &trans    &trans  &trans  &trans
             >;
         };
 
