@@ -113,6 +113,16 @@
             bindings = <&kp MINUS>;
             key-positions = <10 11>;
         };
+
+        tabyoko {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <1 2>;
+        };
+
+        tabR {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
