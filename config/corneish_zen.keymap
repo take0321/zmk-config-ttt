@@ -154,8 +154,8 @@
 
         layer_2 {
             bindings = <
-&trans    &kp ESC  &kp TAB   &kp LANGUAGE_2   &kp LANG1    &trans    &kp LS(TILDE)  &kp LS(TILDE)  &kp LS(PIPE)  &kp LS(PLUS)  &kp EQUAL     &kp MINUS
-&trans    &kp RET  &kp BSPC  &kp SPACE        &kp DELETE   &kp A     &kp A          &kp GRAVE      &kp SQT       &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(UNDER)
+&trans    &kp ESC  &kp TAB   &kp LANGUAGE_2   &kp LANG1    &trans    &kp LS(TILDE)  &kp LS(TILDE)  &kp LS(PIPE)  &kp SQT       &kp LS(LPAR)  &kp LS(RPAR)
+&kp N0    &kp RET  &kp BSPC  &kp SPACE        &kp DELETE   &kp A     &kp A          &kp GRAVE      &kp SQT       &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(UNDER)
 &kp CLCK  &trans   &kp TAB   &kp LC(LS(TAB))  &kp LC(TAB)  &trans    &kp LS(COLON)  &kp LS(COLON)  &kp LS(DQT)   &kp LBKT      &kp RBKT      &kp BSLH
                              &trans           &trans       &trans    &trans         &trans         &trans
             >;
