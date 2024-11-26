@@ -163,10 +163,10 @@
 
         layer_3 {
             bindings = <
-&kp HOME  &mo 4   &kp PAGE_DOWN  &kp UP            &kp PAGE_UP  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp END   &trans  &kp LEFT       &kp DOWN          &kp RIGHT    &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans  &trans         &kp LS(LG(LEFT))  &kp LA(I)    &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                 &trans            &trans       &trans    &trans  &trans  &trans
+&kp HOME  &mo 4   &kp PAGE_DOWN  &kp UP            &kp PAGE_UP  &trans    &kp N1  &kp LS(TILDE)  &kp LS(PIPE)  &kp LS(PLUS)  &kp N1  &kp N1
+&kp END   &trans  &kp LEFT       &kp DOWN          &kp RIGHT    &trans    &kp N1  &kp GRAVE      &kp N1        &kp N1        &kp N1  &kp LS(UNDER)
+&trans    &trans  &trans         &kp LS(LG(LEFT))  &kp LA(I)    &trans    &trans  &kp LS(COLON)  &kp LS(DQT)   &kp N1        &kp N1  &kp BSLH
+                                 &trans            &trans       &trans    &trans  &trans         &trans
             >;
         };
 
