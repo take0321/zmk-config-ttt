@@ -29,7 +29,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "NEW_BEHAVIOR";
             #binding-cells = <0>;
-            bindings = <&kp A>, <&kp B>;
+            bindings = <&kp C>, <&kp D>;
         };
     };
 
