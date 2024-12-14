@@ -132,6 +132,19 @@
         };
     };
 
+    macros {
+        macro1: macro1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LC(LS(LEFT_BRACKET))>,
+                <&macro_wait_time 200>,
+                <&kp LC(V)>;
+
+            label = "MACRO1";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
